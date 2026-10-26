@@ -1,0 +1,2 @@
+# scripta
+simple website project
