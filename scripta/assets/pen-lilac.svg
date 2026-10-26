@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" role="img" aria-label="Ilustração da caneta lilac">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1"><stop stop-color="#4e3e51"/><stop offset=".43" stop-color="#78627b"/><stop offset=".73" stop-color="#bba4ba"/><stop offset="1" stop-color="#4e3e51"/></linearGradient>
+    <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#73512f"/><stop offset=".45" stop-color="#d2aa73"/><stop offset=".72" stop-color="#fff0bb"/><stop offset="1" stop-color="#8e663d"/></linearGradient>
+  </defs>
+  <ellipse cx="150" cy="535" rx="38" ry="17" fill="#382c25" opacity=".18"/>
+  <g>
+    <rect x="112" y="105" width="76" height="360" rx="35" fill="url(#body)"/>
+    <rect x="119" y="130" width="8" height="295" rx="4" fill="#fff" opacity=".22"/>
+    <path d="M126 103h48l-7-54h-34l-7 54Z" fill="url(#metal)"/>
+    <rect x="121" y="93" width="58" height="16" rx="6" fill="url(#metal)"/>
+    <path d="M178 138c31 14 31 65 3 89l-6-11c14-18 16-41 3-64Z" fill="url(#metal)"/>
+    <path d="M118 459h64l-11 46h-42l-11-46Z" fill="url(#metal)"/>
+    <path d="M129 505h42l-21 56-21-56Z" fill="#3d3430"/>
+    <path d="M139 526h22l-11 28-11-28Z" fill="#f7eee0"/>
+    <path d="M135 186h30" stroke="#fff" stroke-width="2" opacity=".22"/>
+  </g>
+</svg>

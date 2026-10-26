@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scripta — canetas para ideias que merecem ficar." />
+  <meta name="theme-color" content="#641f2a" />
+  <title>Scripta — Canetas que deixam marca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <button class="brand" id="brandHome" type="button" aria-label="Scripta — voltar ao início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 28 28" fill="none"><path d="M14 2.5 22.7 11 17 23.8h-6L5.3 11 14 2.5Z" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 15.1 4.8 8.7 4.8-8.7L14 11l-4.8 4.1Z" fill="currentColor"/><path d="M14 11v12.8" stroke="#f8f4ed" stroke-width="1.2"/></svg>
+        </span>
+        <span class="brand-type">Scripta</span>
+      </button>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#bestsellers">Mais desejadas</a>
+        <a href="#new">Novidades</a>
+        <a href="#premium">Coleção atelier</a>
+        <a href="#offers">Últimas peças</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button login-trigger" type="button" aria-label="Abrir login" title="Entrar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M4.7 20c.65-3.5 3.25-5.5 7.3-5.5s6.65 2 7.3 5.5"/></svg>
+          <span class="action-label">Entrar</span>
+        </button>
+        <button class="icon-button bag-trigger" type="button" aria-label="Abrir sacola, 0 itens" title="Sua sacola">
+          <span class="bag-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5.5 8.2h13l-1 12H6.5l-1-12Z"/><path d="M9 9V6.7a3 3 0 0 1 6 0V9"/></svg></span>
+          <span class="cart-count" id="cartCount">0</span>
+          <span class="action-label">Sacola</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileMenu" aria-label="Navegação mobile" hidden>
+      <a href="#bestsellers">Mais desejadas</a>
+      <a href="#new">Novidades</a>
+      <a href="#premium">Coleção atelier</a>
+      <a href="#offers">Últimas peças</a>
+      <a href="#about">Sobre a Scripta</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Papel, tinta e intenção</p>
+          <h1 id="heroTitle">Escreva o que<br /><em>fica.</em></h1>
+          <p class="hero-text">Objetos de escrita feitos para desacelerar o gesto e prolongar as boas ideias.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#bestsellers">Encontrar a sua <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#about">Conheça nosso traço <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span><p>Curadoria de escrita desde<br /><strong>2008 · São Paulo</strong></p></div>
+        </div>
+
+        <div class="hero-visual" aria-label="Seleção de canetas Scripta sobre mesa de escrita">
+          <div class="hero-arch"></div>
+          <div class="hero-image-frame">
+            <img src="assets/hero-writing-desk.webp" alt="Canetas premium sobre papel e caderno em uma mesa de escrita" />
+          </div>
+          <div class="hero-seal"><span>feito para</span><strong>deixar<br />marca</strong></div>
+          <div class="hero-caption">Edição de outono<br /><span>01 — 26</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#bestsellers" aria-label="Ir para os produtos"><span>role para explorar</span><i></i></a>
+    </section>
+
+    <section class="intro-band" aria-label="Princípios da Scripta">
+      <p><span>01</span> Curadoria de materiais</p><p><span>02</span> Traço preciso, por mais tempo</p><p><span>03</span> Embalagem para guardar</p>
+    </section>
+
+    <section class="catalogue-section first-section" id="bestsellers" aria-labelledby="bestsellersTitle">
+      <div class="section-topline"><span>01</span><div></div><span>Curadoria Scripta</span></div>
+      <div class="section-heading">
+        <div><p class="eyebrow">Para começar</p><h2 id="bestsellersTitle">Mais desejadas</h2></div>
+        <p class="section-description">As escolhas que voltam sempre para a mesa de quem escreve todos os dias.</p>
+      </div>
+      <div class="carousel-shell">
+        <div class="product-carousel" data-carousel aria-label="Carrossel de canetas mais desejadas"><div class="product-track" id="bestsellersTrack"></div></div>
+        <div class="carousel-controls" aria-label="Controles do carrossel"><button type="button" class="carousel-arrow" data-target="bestsellersTrack" data-direction="prev" aria-label="Produtos anteriores">←</button><button type="button" class="carousel-arrow" data-target="bestsellersTrack" data-direction="next" aria-label="Próximos produtos">→</button></div>
+      </div>
+    </section>
+
+    <section class="editorial-break" aria-label="Destaque de coleção">
+      <p class="eyebrow"><span></span> O gesto antes da palavra</p>
+      <blockquote>“Uma boa caneta não pede pressa.<br />Ela convida a continuar.”</blockquote>
+      <a href="#premium" class="text-link light-link">Ver coleção atelier <span aria-hidden="true">→</span></a>
+      <div class="editorial-corner">A escrita<br />também é<br /><em>matéria.</em></div>
+    </section>
+
+    <section class="catalogue-section muted-section" id="new" aria-labelledby="newTitle">
+      <div class="section-topline"><span>02</span><div></div><span>Chegaram agora</span></div>
+      <div class="section-heading">
+        <div><p class="eyebrow">Novas histórias</p><h2 id="newTitle">Lançamentos</h2></div>
+        <p class="section-description">Cores, superfícies e mecanismos que acabaram de entrar na nossa curadoria.</p>
+      </div>
+      <div class="carousel-shell">
+        <div class="product-carousel" data-carousel aria-label="Carrossel de lançamentos"><div class="product-track" id="newTrack"></div></div>
+        <div class="carousel-controls" aria-label="Controles do carrossel"><button type="button" class="carousel-arrow" data-target="newTrack" data-direction="prev" aria-label="Produtos anteriores">←</button><button type="button" class="carousel-arrow" data-target="newTrack" data-direction="next" aria-label="Próximos produtos">→</button></div>
+      </div>
+    </section>
+
+    <section class="catalogue-section" id="premium" aria-labelledby="premiumTitle">
+      <div class="section-topline"><span>03</span><div></div><span>Peças de exceção</span></div>
+      <div class="section-heading">
+        <div><p class="eyebrow">Coleção atelier</p><h2 id="premiumTitle">Canetas premium</h2></div>
+        <p class="section-description">Materiais raros e acabamentos que fazem do instrumento um objeto de permanência.</p>
+      </div>
+      <div class="carousel-shell">
+        <div class="product-carousel" data-carousel aria-label="Carrossel de canetas premium"><div class="product-track" id="premiumTrack"></div></div>
+        <div class="carousel-controls" aria-label="Controles do carrossel"><button type="button" class="carousel-arrow" data-target="premiumTrack" data-direction="prev" aria-label="Produtos anteriores">←</button><button type="button" class="carousel-arrow" data-target="premiumTrack" data-direction="next" aria-label="Próximos produtos">→</button></div>
+      </div>
+    </section>
+
+    <section class="catalogue-section offer-section" id="offers" aria-labelledby="offersTitle">
+      <div class="offer-copy"><p class="eyebrow"><span></span> Últimas unidades</p><h2 id="offersTitle">Ofertas com<br /><em>história.</em></h2><p>Peças de coleção e cores de temporada, por um tempo breve.</p><a class="text-link" href="#about">Por que escolher Scripta? <span aria-hidden="true">→</span></a></div>
+      <div class="carousel-shell offer-carousel-shell">
+        <div class="product-carousel" data-carousel aria-label="Carrossel de ofertas"><div class="product-track" id="offersTrack"></div></div>
+        <div class="carousel-controls" aria-label="Controles do carrossel"><button type="button" class="carousel-arrow" data-target="offersTrack" data-direction="prev" aria-label="Produtos anteriores">←</button><button type="button" class="carousel-arrow" data-target="offersTrack" data-direction="next" aria-label="Próximos produtos">→</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <div class="footer-top"><a class="brand footer-brand" href="#top" aria-label="Voltar ao início"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none"><path d="M14 2.5 22.7 11 17 23.8h-6L5.3 11 14 2.5Z" stroke="currentColor" stroke-width="1.7"/><path d="m9.2 15.1 4.8 8.7 4.8-8.7L14 11l-4.8 4.1Z" fill="currentColor"/></svg></span><span class="brand-type">Scripta</span></a><p>Canetas que deixam marca.</p></div>
+    <div class="footer-main">
+      <section class="about-copy" aria-labelledby="aboutTitle"><p class="eyebrow">Sobre nós</p><h2 id="aboutTitle">Toda ideia merece<br /><em>um bom começo.</em></h2><p class="long-copy">A Scripta nasceu da atenção ao que permanece. Desde 2008, aproximamos pessoas de instrumentos de escrita com presença: materiais honestos, desenho preciso e uma história para contar. Acreditamos que uma caneta pode ser uma pausa no ritmo do dia, uma forma de organizar o pensamento e um objeto que acompanha muitas versões de você. Nossa curadoria une ateliers tradicionais e criadores contemporâneos para celebrar a escrita como um gesto íntimo, cotidiano e intencional.</p></section>
+      <div class="footer-links"><div><h3>Atendimento</h3><a href="mailto:ola@scripta.com">ola@scripta.com</a><a href="tel:+5511999999999">+55 11 99999 9999</a><span>Seg–Sex, 10h–18h</span></div><div><h3>Por perto</h3><a href="#top">Instagram</a><a href="#top">Pinterest</a><a href="#top">São Paulo, Brasil</a></div><div><h3>Informações</h3><a href="#top">Envios e devoluções</a><a href="#top">Privacidade</a><a href="#top">Termos de uso</a></div></div>
+    </div>
+    <div class="newsletter"><div><p class="eyebrow">Correspondência Scripta</p><p>Uma carta breve, novidades e boas histórias — sem excesso.</p></div><form id="newsletterForm"><label class="sr-only" for="newsletterEmail">Seu e-mail</label><input id="newsletterEmail" type="email" placeholder="seuemail@exemplo.com" required /><button type="submit" aria-label="Assinar correspondência">→</button></form></div>
+    <div class="footer-bottom"><span>© <span id="currentYear"></span> Scripta. Todos os direitos reservados.</span><span>Feito devagar, para durar.</span></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true">
+    <div class="drawer-header"><div><p class="eyebrow">Seu caderno de escolhas</p><h2 id="cartTitle">Sacola <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="closeCart" type="button" aria-label="Fechar sacola">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>✦</span><p>Sua sacola ainda está em branco.</p><button class="text-link cart-continue" type="button">Continuar explorando <span>→</span></button></div></div>
+    <div class="cart-footer"><div class="cart-total"><span>Subtotal</span><strong id="cartTotal">U$ 0</strong></div><p>Frete e impostos calculados no próximo passo.</p><button class="button button-primary checkout-button" type="button">Finalizar demonstração <span aria-hidden="true">↗</span></button></div>
+  </aside>
+
+  <dialog class="login-modal" id="loginModal" aria-labelledby="loginTitle">
+    <button class="close-button modal-close" type="button" aria-label="Fechar login">×</button>
+    <div class="login-art"><span>✦</span><p>Um lugar para guardar<br />suas escolhas.</p></div>
+    <div class="login-content"><p class="eyebrow">Área demonstrativa</p><h2 id="loginTitle">Bem-vinda de volta.</h2><p>Entre para acessar favoritos, pedidos e histórias da Scripta.</p><form id="loginForm" novalidate><label for="loginEmail">E-mail</label><input id="loginEmail" type="email" autocomplete="email" placeholder="seuemail@exemplo.com" required /><label for="loginPassword">Senha</label><input id="loginPassword" type="password" autocomplete="current-password" placeholder="••••••••" minlength="4" required /><div class="form-message" id="loginMessage" role="status"></div><button class="button button-primary" type="submit">Entrar na demonstração <span aria-hidden="true">→</span></button></form><p class="login-footnote">Ainda não tem conta? <a href="#top" class="login-register">Criar acesso demonstrativo</a></p></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
